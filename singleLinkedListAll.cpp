@@ -23,10 +23,9 @@ if(this->next!=NULL){
 }
 cout <<"memory free for node with data"<< val << endl;
 }
-
-
-
 };
+
+
 void insertathead(Node* &head,int d){
 
 Node* temp=new Node(d);
@@ -98,11 +97,8 @@ curr->next=NULL;
 delete curr; 
 
  }
-
-
-
-
 }
+
 
 void print(Node* &head){
     int cnt=0;
@@ -116,9 +112,6 @@ void print(Node* &head){
     cout <<endl;
     cout<<"number of nodes"<<cnt;
 }
-
-
-
 
 
 int main() {
